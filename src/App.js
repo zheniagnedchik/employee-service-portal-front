@@ -6,7 +6,7 @@ function App() {
 
   const [appState, setAppState] = useState({question:[]});
   useEffect(() => {
-    const apiUrl = 'https://portal-employee-service.herokuapp.com/interview';
+    const apiUrl = 'https://cors-anywhere.herokuapp.com/https://portal-employee-service.herokuapp.com/interview';
     axios.get(apiUrl).then((resp) => {
       const question = resp.data;
       setAppState({test:question});
