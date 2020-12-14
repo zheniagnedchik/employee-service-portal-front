@@ -7,7 +7,7 @@ function App() {
     const [appState, setAppState] = useState([]);
 
     useEffect(() => {
-        axios.get('/interview').then((resp) => {
+        axios.get('"https://portal-employee-service.herokuapp.com/interview').then((resp) => {
             //осуществить проверку входных данных перед записью в стейт
             setAppState(resp.data);
         });

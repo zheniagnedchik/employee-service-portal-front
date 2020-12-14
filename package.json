@@ -24,7 +24,6 @@
     "compress": true,
     "disableHostCheck": true
   },
-  "proxy": "https://portal-employee-service.herokuapp.com/",
   "eslintConfig": {
     "extends": [
       "react-app",
