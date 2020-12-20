@@ -1,0 +1,120 @@
+
+/* timer */
+
+.timerContainetr{
+    margin: 0 auto;
+    width: 160px;
+    border-radius: 80px;
+height: 162px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+margin-top: 50px;
+}
+.timetTitle{
+font-weight: 500;
+font-size: 48px;
+line-height: 150%;
+
+color: #D60101;
+z-index: 9999;
+}
+.timeContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+}
+
+
+.elipse_1{
+    /* Ellipse 60 */
+
+position: absolute;
+width: 42px;
+height: 42px;
+border-radius: 30px;
+margin-top: 137px;
+margin-left: 54px;
+background: #D60101;
+
+
+}
+.elipse_2{
+    position: absolute;
+width: 36px;
+height: 36px;
+border-radius: 50px;
+margin-top: 125px;
+margin-left: 7px;
+background: #D60101;
+}
+.elipse_3{
+    position: absolute;
+    width: 34px;
+height: 34px;
+background: #D60101;
+border-radius: 50px;
+margin-top: 82px;
+margin-left: -17px;
+}
+.elipse_4{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin-top: 36px;
+    margin-left: -15px;
+    border-radius: 50px;
+    background: #D60101;
+}
+.elipse_5{
+    position: absolute;
+width: 28px;
+height: 28px;
+border-radius: 50px;
+margin-left: 10px;
+background: #D60101;
+}
+.elipse_6{
+    position: absolute;
+width: 26px;
+height: 26px;
+margin-left: 50px;
+margin-top: -15px;
+border-radius: 50px;
+background: #D60101;
+
+}
+.elipse_7{
+    position: absolute;
+width: 20px;
+height: 20px;
+border-radius: 50px;
+margin-left: 93px;
+margin-top: -10px;
+background: #D60101;
+}
+.elipse_8{
+    position: absolute;
+width: 19px;
+height: 19px;
+border-radius: 50px;
+margin-left: 122px;
+margin-top: 8px;
+
+background: #D60101;
+}
+.elipse_9{
+    position: absolute;
+width: 16px;
+height: 16px;
+border-radius: 50px;
+margin-left: 141px;
+margin-top: 36px;
+
+background: #D60101;
+}
+@keyframes eclipse{
+    to{transform: rotate(360deg);}
+}
+.timerContainetr{
+    animation: eclipse 2s infinite  linear ;
+}

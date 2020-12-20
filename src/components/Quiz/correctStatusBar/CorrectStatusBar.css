@@ -1,0 +1,38 @@
+.containerCorrect{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+
+}
+
+.statusBarLi{
+    margin-left: 43px;
+    margin-top: -75px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 140%;
+/* identical to box height, or 42px */
+
+
+color: #646060;
+}
+.containerCorrectBack{
+    background: #EFEFEF;
+    width: 20%;
+    height: 56px;
+    border-radius: 32px;
+    margin: 0 auto;
+}
+.statusBarCoorect{
+    margin-top: 44px;
+    
+}
+@keyframes statusBar{
+    to{transform: rotate(360deg);}
+}
+.statusBarImgCorrect{
+    animation: statusBar 2s infinite  linear ;
+}

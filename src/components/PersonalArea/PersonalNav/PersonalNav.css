@@ -1,0 +1,68 @@
+
+
+.nav{
+    position: fixed;
+    width: 329px;
+    height: 100vh;
+    background: #4C4C4E;
+}
+.logoNav{
+    width: 72px;
+    height: 60px;
+    margin-top: 8px;
+    margin-left: 8px;
+
+}
+.navHeader{
+    display: flex;
+    
+}
+.titleNav{
+    margin-left: 12px;
+    margin-top: 32px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+color: #FFFFFF;
+}
+.navMenu{
+    padding: 0;
+    margin-top: 141px;
+}
+.navMenu li{
+    list-style: none;
+    border-left: 8px solid #4C4C4E;
+    height: 69px;
+    display: flex;
+    align-items: center;
+}
+
+.navMenu p{
+    
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 110%;
+/* or 24px */
+margin-left: 72px;
+cursor: pointer;
+
+color: #FFFFFF;
+}
+.navMenu li:hover{
+    background: rgba(141, 137, 137, 0.65);
+    border-left: 8px solid #D60101;
+}
+.navMenu a{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+

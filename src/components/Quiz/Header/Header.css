@@ -1,0 +1,39 @@
+.headerContain{
+    width: 100%;
+    height: 80px;
+    background: #4C4C4E;
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    margin-left: 2.22%;
+}
+.headerText{
+    margin-left: 2.77%;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 150%;
+
+/* identical to box height, or 33px */
+
+
+color: #FFFFFF;
+}
+.imgProfile img{
+    border-radius: 50px;
+    
+}
+.imgProfile{
+    margin-left: 61.73%;
+}
+.headerLine{
+    width: 1440px;
+height: 4px;
+left: 0px;
+top: 80px;
+
+background: #D60101;
+}

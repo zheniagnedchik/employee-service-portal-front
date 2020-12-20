@@ -1,0 +1,48 @@
+.correctCloseContainer{
+    position: absolute;
+    width: 100%;
+    height: 425px;
+    background: #FFFFFF;
+border-radius: 64px;
+margin-top: 661px;
+z-index: 0;
+
+
+
+}
+.correctTest{
+    text-align: center;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 140%;
+margin-top: 18px;
+
+
+color: #068923;
+}
+.imgCorrect{
+    margin-left:47.70%;
+    margin-top: 44px;
+}
+.currentTestButton{
+    width: 276px;
+height: 54px;
+margin-left: 40.41%;
+text-align: center;
+background: #4C4C4E;
+border-radius: 32px;
+margin-top: 58px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 110%;
+/* identical to box height, or 22px */
+cursor:pointer;
+
+color: #FFFFFF;
+border:none;
+outline: none;
+}

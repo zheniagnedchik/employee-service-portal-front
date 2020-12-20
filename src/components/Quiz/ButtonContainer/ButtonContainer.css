@@ -1,0 +1,41 @@
+
+
+.buttonContainer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+.nextQuestion{
+width: 240px;
+height: 54px;
+background: #4C4C4E;
+border-radius: 32px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 110%;
+color: #FFFFFF;
+border: none;
+outline: none;
+}
+.nextQuestion:disabled{
+    background: #CBC9C8;
+}
+.closeTest{
+width: 240px;
+height: 54px;
+background: #FFFFFF;
+border: 2px solid #4C4C4E;
+box-sizing: border-box;
+border-radius: 32px;
+margin-left: 64px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 110%;
+color: #4C4C4E;
+outline: none;
+}

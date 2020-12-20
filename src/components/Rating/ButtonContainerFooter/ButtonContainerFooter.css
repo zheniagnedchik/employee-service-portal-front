@@ -1,0 +1,36 @@
+.footerBtnContain{
+    text-align: center;
+    margin-top: 56px;
+}
+.submit{
+    width: 240px;
+height: 54px;
+outline: none;
+border: none;
+
+background: #4C4C4E;
+border-radius: 32px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 110%;
+color: #FFFFFF;
+}
+.back{
+    width: 240px;
+height: 54px;
+outline: none;
+border: none;
+background: #FFFFFF;
+border: 2px solid #4C4C4E;
+box-sizing: border-box;
+border-radius: 32px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 110%;
+color: #4C4C4E;
+margin-left: 4.027%;
+}

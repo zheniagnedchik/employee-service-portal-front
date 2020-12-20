@@ -1,0 +1,48 @@
+.PersonalHeader{
+    width: 74.93%;
+    height: 68px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+border-radius: 16px;
+margin-left: 23.95%;
+
+}
+.notification{
+    margin-left: 64.22%;
+}
+.personalHeaderContain{
+    display: flex;
+    align-items: center;
+}
+.PersonalImg{
+    margin-left: 3.055%;
+    margin-top: 5px;
+}
+.PersonalImg img{
+    border-radius: 50px;
+}
+.headerInfo{
+    margin-left: 1.38%;
+}
+.headerName{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+
+color: #646060;
+}
+.headerProf{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+
+color: #4C4C4E;
+}

@@ -1,0 +1,49 @@
+.navStatusBar{
+    list-style: none;
+    font-weight: normal;
+font-size: 30px;
+line-height: 140%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 140%;
+/* identical to box height, or 42px */
+
+
+color: #646060;
+    
+}
+.containerNav{
+    width: 13.12%;
+height: 56px;
+background: #EFEFEF;
+border-radius: 32px;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+padding: 0;
+align-items: center;
+
+}
+
+.statusBarImg{
+    
+position: relative;
+width: 7%;
+top: 82.5px;
+left: 42.2%;
+
+}
+.animNextQestion_2{
+    margin-left: 4.3%;
+    transition-property: margin-left;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+}
+.animNextQestion_3{
+    margin-left: 8.6%;
+    transition-property: margin-left;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+}

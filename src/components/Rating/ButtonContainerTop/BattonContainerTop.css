@@ -1,0 +1,86 @@
+.btn_manage{
+    
+    width: 447px;
+height: 56px;
+border-radius: 32px;
+
+border: none;
+outline: none;
+background: #FFFFFF;
+border: 2px solid #4C4C4E;
+box-sizing: border-box;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+color: #4C4C4E;
+}
+.btn_condition{
+    
+    width: 447px;
+height: 56px;
+border-radius: 32px;
+margin-left: -48px;
+border: none;
+outline: none;
+border: none;
+outline: none;
+background: #FFFFFF;
+border: 2px solid #4C4C4E;
+box-sizing: border-box;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+color: #4C4C4E;
+
+}
+.btn_criteria_1,.btn_criteria_2,.btn_criteria_3{
+    width: 447px;
+    height: 56px;
+    border-radius: 32px;
+    margin-left: -48px;
+    border: none;
+    outline: none;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    border: 2px solid #4C4C4E;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #4C4C4E;
+}
+
+.btn_active_criteria{
+    background-color:  #4C4C4E;
+    z-index: 1;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.btn_container_1{
+   display: flex;
+   justify-content: center;
+   margin-top: 48px;
+
+   
+}
+.btn_active{
+    background-color:  #4C4C4E;
+    z-index: 1;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+color: #FFFFFF;
+}
