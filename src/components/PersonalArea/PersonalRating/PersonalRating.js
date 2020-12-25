@@ -1,29 +1,75 @@
-import React ,{useState,useEffect} from 'react'
-import './PersonalRating.css'
+import React, { useState, useEffect } from "react";
+import "./PersonalRating.css";
+import axios from "axios";
 
+function PersonalRating() {
+  const [departaments, setDepartaments] = useState({ departament: [] });
+  const [peoples, setPeople] = useState({ people: [] });
+  const [postDeps, SetPostDeps] = useState();
 
-function PersonalRating(){
-    const [articled,setPostId]=useState()
-    
-    function Post(){
-        const requestOptions = {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ title: 'React Hooks POST Request Example' })
-        };
-        fetch('https://cors-anywhere.herokuapp.com/https://portal-employee-service.herokuapp.com/test', requestOptions)
-            .then(response => response.json())
-            .then(data => setPostId(data.id));
-    }
-
-    
-    
-    return(
-        <div className="PersonalRating">
-             <button onClick={Post}>Отпавить запрос</button>
-        </div>
+  useEffect(() => {
+    fetch(
+      "https://cors-anywhere.herokuapp.com/https://portal-employee-service.herokuapp.com/evaluation/department"
     )
+      .then((res) => res.json())
+      .then((result) => {
+        setDepartaments({ departament: result });
+      });
+  }, []);
+
+  const data = new Date();
+  const d = (data.getFullYear(), data.getMonth() + 1, data.getDate());
+  console.log(d);
+
+  function postDep(e) {
+    SetPostDeps(e);
+
+    fetch(
+      `https://cors-anywhere.herokuapp.com/portal-employee-service.herokuapp.com/evaluation/department/${e.department}`
+    )
+      .then((res) => res.json())
+      .then((result) => {
+        setPeople({ people: result });
+      });
+  }
+
+  function postPeople(peopl) {
+    const id = {
+      valuingEmployeeId: 4,
+      evaluateEmployeeId: peopl.id,
+    };
+    console.log(id);
+    axios.post(
+      `https://cors-anywhere.herokuapp.com/https://portal-employee-service.herokuapp.com/evaluation/staff-evaluation`,
+      id
+    );
+  }
+
+  return (
+    <div className="PersonalRating">
+      <h1>Departament</h1>
+
+      <ul>
+        {departaments.departament.map((e) => (
+          <li>
+            <button onClick={() => postDep(e)}>{e.department}</button>
+          </li>
+        ))}
+      </ul>
+      <h1>People</h1>
+      <ul>
+        {peoples.people.map((peopl) => (
+          <li>
+            <button onClick={() => postPeople(peopl)}>
+              {peopl.lastName}
+              {peopl.firstName}
+              {peopl.patronymic}
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
-
-export default PersonalRating
+export default PersonalRating;
