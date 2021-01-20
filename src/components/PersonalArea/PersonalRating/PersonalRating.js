@@ -38,9 +38,9 @@ function PersonalRating() {
       valuingEmployeeId: 4,
       evaluateEmployeeId: peopl.id,
     };
-    console.log(id);
+    
     axios.post(
-      `https://cors-anywhere.herokuapp.com/https://portal-employee-service.herokuapp.com/evaluation/staff-evaluation`,
+      `/путь к базе`,
       id
     );
   }
